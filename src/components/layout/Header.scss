@@ -1,0 +1,13 @@
+
+@import '../../styles/partials/variables';
+
+$headerSection: ".header__section";
+#{$headerSection} {
+    text-align: center;
+    padding: 20px;
+    background-color: $globalColor;
+    position: relative;  
+    color:white;
+    font-size: larger;
+    font-weight: 600;
+}

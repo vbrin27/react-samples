@@ -1,0 +1,14 @@
+@import '../../styles/partials/variables';
+
+$footerSection: ".footer__section";
+
+#{$footerSection} {
+    display: inline-flex;
+    flex-flow: row-reverse;
+    
+    position: relative;
+    font-style: italic;
+    padding: 20px;
+    background-color: $globalColor;
+    color:white;
+}

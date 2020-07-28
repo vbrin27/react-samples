@@ -1,0 +1,19 @@
+@import '../../styles/partials/variables';
+
+$contentSection: ".content__section";
+$demoSection: ".demo__section";
+
+$contentWidth: calc(100% - #{$navBarWidth});
+$demoContainerHt: 200px;
+
+
+#{$contentSection}{
+    display: inline-flex;
+    flex-direction: column;
+    width: $contentWidth;
+    padding: 50px 0px 50px 50px;    
+}
+
+#{$demoSection}{
+    min-height: $demoContainerHt;
+}

@@ -1,0 +1,7 @@
+$mainSection: ".main__section";
+$bodyHeight: calc(100% - 121px);
+
+#{$mainSection} {
+    display: inline-flex;
+    height: $bodyHeight;
+}

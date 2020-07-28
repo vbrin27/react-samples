@@ -1,0 +1,24 @@
+@import '../../styles/partials/variables';
+$navBarItem: ".nav__item";
+
+#{$navBarItem}{
+    display: inline-flex;
+    line-height: 23px;
+    padding: 7px 7px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover{
+        background-color: mix(white, $globalColor, 60%);
+    }
+    &:focus{
+        text-decoration: none;
+        outline: none;
+        box-shadow: inset 0 0 0 1px transparent, 0 0 0 1px #333333;
+    }
+    &.is-active{
+        background: $globalColor;
+        color: white;
+    }
+}

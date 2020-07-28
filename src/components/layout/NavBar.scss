@@ -1,0 +1,15 @@
+@import '../../styles/partials/variables';
+
+$navBarSection: ".nav__section";
+#{$navBarSection}{
+    display: flex;
+    flex-direction: column;
+    width: $navBarWidth;
+    background-color: mix(white, $globalColor, 80%);
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+
+
