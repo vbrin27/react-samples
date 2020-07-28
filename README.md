@@ -1,6 +1,9 @@
 # react-samples
 
-I have created this application to keep track of sample applications I am working while learning React on under single roof. 
+I have created this application to keep track of sample demos I am working on while learning React Framework. It will be easy to track the demos if it is available in a single application. 
+
+## Available Samples
+- `Clock` (Implemented same demo using Functional Component and Class Component)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
